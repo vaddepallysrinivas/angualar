@@ -1,0 +1,25 @@
+
+<div class="col-xs-12">
+    <div class="form-inline">
+      <div class="form-group">
+        <label>Region:</label>
+         <select name="region" ng-model="ldCtrl.region" class="form-control input-sm"  ng-options="region as region for region in ldCtrl.allRegions" ng-change="ldCtrl.loadSubregions()"  ng-disabled="ldCtrl.disableRegion" style="min-width:100px">
+      <option value=""></option>
+      </select>
+
+      </div>
+      <div class="form-group">
+        <label>SubRegion:</label>
+        <select name="subRegion" ng-model="ldCtrl.subRegion" class="form-control input-sm" ng-options="subRegion as subRegion for subRegion in ldCtrl.allSubRegions" ng-change="ldCtrl.loadCountries()"  ng-disabled="ldCtrl.disableSubRegion" style="min-width:100px">
+      <option value=""></option>
+      </select>
+
+      </div>
+      <div class="form-group">
+        <label>Country:</label>
+        <select name="country" ng-model="ldCtrl.country" class="form-control input-sm"  ng-options="region as region for region in ldCtrl.allcountries" ng-change="ldCtrl.loadData()"   ng-disabled="ldCtrl.disableCountry" style="min-width:100px">
+      <option value=""></option>
+      </select>
+      </div>
+    </div>
+  </div>

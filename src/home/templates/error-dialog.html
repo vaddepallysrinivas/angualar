@@ -1,0 +1,14 @@
+<div class="modal-header">
+    <h5 class="modal-title">
+    	<b>Error</b>
+    	<span class="glyphicon glyphicon-remove" style="float:right" ng-click="errorDialogCtrl.cancel()"></span>
+    </h5>
+</div>
+<div class="modal-body" id="modal-body">
+    <div class="modal-overflow">
+        {{errorDialogCtrl.text}}
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-sm btn-primary" type="button" ng-click="errorDialogCtrl.cancel()">OK</button>
+</div>

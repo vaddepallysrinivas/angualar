@@ -1,0 +1,13 @@
+<div class="modal-header">
+    <h5 class="modal-title" id="modal-title">
+    	<b>{{alertCtrl.title}}</b>
+    	<span class="glyphicon glyphicon-remove" style="float:right; cursor:pointer" 
+    	ng-click="alertCtrl.no()"></span>
+    </h5>
+</div>
+<div class="modal-body" id="modal-body" style="height:60px">
+   <p>{{alertCtrl.message}}</p>
+</div>
+<div class="modal-footer" style="padding:5px">
+	<button class="btn btn-sm btn-primary" type="button" ng-click="alertCtrl.no()">{{alertCtrl.okTitle}}</button>
+</div>

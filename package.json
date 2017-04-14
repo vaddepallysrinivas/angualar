@@ -1,0 +1,59 @@
+{
+  "name": "LMS",
+  "version": "0.0.1",
+  "description": "Learning management System",
+  "main": "index.js",
+  "scripts": {
+    "prod": "gulp clean:prod&&gulp prod --prod&&gulp write:toIndex:prod",
+    "dev": "gulp clean:dev&&gulp build --dev&&gulp write:toIndex:dev&&gulp dev --dev"
+  },
+  "author": "Tata Consultancy Services",
+  "license": "Dupoint",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "angular-toastr": "^2.1.1",
+    "angular-touch": "^1.5.8",
+    "angular-ui-bootstrap": "^2.2.0",
+    "angular-ui-grid": "^4.0.4",
+    "angular-ui-router": "^0.3.1",
+    "moment-timezone": "^0.5.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "browserify": "^13.1.1",
+    "browserify-shim": "^3.8.12",
+    "del": "^2.2.2",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.2",
+    "gulp-inject": "^4.1.0",
+    "gulp-jshint": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "http-proxy-middleware": "^0.17.2",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "proxy-middleware": "^0.15.0",
+    "stream-series": "^0.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^6.3.0"
+  },
+  "browser": {
+    "jquery": "./jqury/jquery-3.1.1.min.js"
+  },
+  "browserify-shim": {
+    "jquery": "$"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  }
+}

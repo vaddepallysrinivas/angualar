@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<!-- <base href="/"> -->
+	<!-- inject:css -->
+
+	
+
+	
+
+	<link rel="stylesheet" href="/assets/styles/angular-toastr.css">
+
+	
+
+	
+
+	<link rel="stylesheet" href="/assets/styles/bootstrap.min.css">
+
+	
+
+	
+
+	<link rel="stylesheet" href="/assets/styles/ui-grid.css">
+
+	
+
+	
+
+	<link rel="stylesheet" href="/dist-dev/main.css">
+
+	
+
+	
+
+	<!-- endinject -->
+</head>
+<body ng-app="lms">
+	
+    <app-container></app-container>
+
+
+
+
+	<!-- inject:js -->
+   
+	
+
+
+	
+
+	<script src="/dist-dev/libs.min.js"></script>
+   
+	
+
+
+	
+
+	<script src="/dist-dev/vendor.min.js"></script>
+   
+	
+
+
+	
+
+	<script src="/dist-dev/bundle.min.js"></script>
+   
+	
+
+
+	
+
+	<!-- endinject -->
+
+	<!--<script>
+
+		var initInjector = angular.injector(['ng']);
+		var $http = initInjector.get('$http');
+		var userDetails;
+
+		function bootstrapAngular() {
+			angular.element(document).ready(function() {
+				angular.bootstrap(document.getElementById('app'), ['sep']);
+			});  
+
+		}
+		var req={
+			method: 'GET',
+			url:'/epm/newipm/sep/api/',
+			headers: {
+				'Cache-Control': 'no-cache, no-store, must-revalidate', 
+				'Pragma': 'no-cache', 
+				'Expires': '0'
+			}
+		};
+		
+		$http(req).then(function (response) {	
+			userDetails = response.data;
+			angular.module('sep').constant('UserDetails', userDetails);
+			bootstrapAngular();
+		}, function (error) {
+		});
+
+	</script>-->
+
+
+</body>
+</html>

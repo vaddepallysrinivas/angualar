@@ -1,0 +1,148 @@
+a{
+    outline: none;
+}
+
+.card{
+    box-shadow: 0px 1px 8px rgb(100,100,100);
+    background-color: #fff;
+}
+
+.card-top {
+    margin-top: 20px;
+}
+
+.header-label{
+    background:rgba(18,65,145,1) !important;
+    color:#fff !important;
+    text-align:center;
+    font-weight: bold;
+}
+
+.modal-header {
+    background-color: rgba(18,65,145,1);
+    color: #fff;
+    font-weight: 200;
+    padding:10px;
+}
+.modal-body {
+    background-color: #F7F7F7 !important;
+}
+.modal-footer {
+    background-color: #F7F7F7 !important;
+    padding:5px;
+}
+
+.modal-overflow{
+    height:400px;
+    overflow-y:auto;  
+}
+
+#toast-container .toast.toast-info {
+    opacity: 1;
+}
+
+#toast-container .toast.toast-success {
+    opacity: 1;
+}
+
+#toast-container .toast.toast-error {
+    opacity: 1;
+}
+
+#toast-container .toast.toast-warning {
+    opacity: 1;
+}
+.selectHeading{
+    color:#124191;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Headings{
+    color:#124191;
+    font-weight: bold;
+    margin-top:1%;
+    margin-bottom:2%;
+}
+
+.content
+{
+   font-family:Arial;
+   color:#000000;
+   font-weight:normal;
+}
+.contentStrong
+{
+   font-family:Arial;
+   color:#8010A2;
+   font-weight:bold;
+   font-size: 13px;
+}
+.subtitle
+{
+ color:#8010A2;
+ font-weight:bold;
+ text-align: left;
+ font-size: 13px;
+}
+
+.link-line{
+    color:#15428E;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.card-shadow{
+    box-shadow: 0px 1px 8px rgb(100,100,100);
+    background-color: #fff !important;
+    padding-top:1%;
+}
+
+.dark-labels{
+    background:rgba(18,65,145,1);
+    color:white;
+    text-align:center;
+    border-radius:5px;
+    padding:5px;
+    font-weight: bold;
+}
+
+
+.hscroll{
+    overflow-x: auto;
+}
+
+
+.no-bullets > ul{
+  list-style-type: none;
+}
+
+
+.http-dialog {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding:0px;
+
+    .alert-dismissible .close {
+        top: 4px;
+    }
+}
+
+.center-modal {
+    position: fixed;
+    top: 15%;
+    left: 18.5%;
+    z-index: 1050;
+    width: 80%;
+    height: 80%;
+    margin-left: -10%;
+}
+
+.word-wrap{
+    overflow-wrap: break-word;
+}
+
+.pagination-a {
+    cursor:pointer;
+}
+

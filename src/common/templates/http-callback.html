@@ -1,0 +1,10 @@
+<div class="modal-body http-dialog" id="modal-body" style="padding:0px">
+	<!-- <button type="button" class="close">
+	  <span aria-hidden="true">×</span>
+	  <span class="sr-only">Close</span>
+	</button>
+   <h4>{{httpCtrl.message}}</h4> -->
+   <div uib-alert ng-class="'alert-' + (httpCtrl.classType)" 
+   		style="margin:0px;" close="httpCtrl.closeAlert()"><h5>{{httpCtrl.message}}</h5></div>
+
+</div>

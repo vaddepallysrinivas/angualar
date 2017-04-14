@@ -1,0 +1,16 @@
+.form-group{
+        margin-bottom: 5px;
+    }
+
+.error-input{
+    border-color: rgba(208, 57, 57, 0.5);
+    box-shadow: 0 1px 1px rgba(208, 57, 57, 0.075) inset, 0 0 8px rgba(208, 57, 57, 0.3);
+    outline: 0 none;
+}
+.error-text{
+    color:rgba(208, 57, 57, 1);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}

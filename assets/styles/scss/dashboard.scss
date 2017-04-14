@@ -1,0 +1,95 @@
+.clock-table {
+    width: 100%;
+    td, th{
+        text-align: center;
+    }
+}
+
+.hr-style{
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05));
+
+}
+
+#left-view{
+	float:left;
+	width:20%;
+	padding:15px;
+}
+#right-view{
+	float:left;
+	width:80%;
+	padding:0 15px 15px 15px;
+}
+
+.welcome{
+    color:black;
+    text-decoration: underline;
+}
+
+.quick-links li{
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+.clock-row{
+	display:flex;
+	width:100%;
+}
+.clock-first{
+	margin-left:1%;
+}
+.clock{
+	width:18%;
+	margin-right:2%;
+}
+.clock-last{
+	margin-right:1%;
+}
+.canvas-padding{
+	padding-left:1%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  
+    .clock .panel-body > .canvas{
+    position:relative;
+    	right:5px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  
+    .clock .panel-body > .canvas{
+    position:relative;
+    	right:10px;
+    }
+}
+#sepAnnouncement {
+    min-height:140px;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  
+    .clock-row{
+      display:block;
+    }
+    .clock{
+    float:left;
+        width:25%;
+    }
+}
+@media only screen and (max-width: 768px) {
+   
+    .clock-row{
+      display:block;
+    }
+    .clock{
+    float:left;
+        width:40%;
+    }
+
+}
+
+
